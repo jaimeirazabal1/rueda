@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rueda de la vida</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script type="text/javascript" src="js/highcharts-more.js"></script>
+    <script type="text/javascript" src="js/exporting.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/modernizr_validation.js"></script>
+    <script type="text/javascript" src="js/jquery.numeric.js"></script>
+</head>
+
+<body>
+    <div class="todo well">
+        <div class="page-header">
+            <h1>La Rueda de la Vida
+                <br>
+            <small>
+                Introduce los items para conformar la rueda de la vida
+            </small>
+            </h1>
+        </div>
+        <div id="form" class="pull-left well">
+            <div id="items_mios" class='pull-left'>
+                <!-- container de items -->
+            </div>
+            <div class="clearfix"></div>
+            <hr>
+            <div id="camposAdicionales" class="pull-left">
+                <div class="input-group" style="width:150px">
+                  <input type="text" class="form-control new_item_text" style="width:150px" id="new_item_text" placeholder="Nuevo Item">
+                  <span class="input-group-addon btn  btn-success glyphicon glyphicon-plus" id="add_item_btn"></span>
+                </div>
+            </div>
+        </div>
+        <div id="contenedor" class="pull-left" style="margin-left:40px"></div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>

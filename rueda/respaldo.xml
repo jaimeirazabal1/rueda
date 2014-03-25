@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<!-- Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *      
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License
+-->
+        <ModulePrefs title="Hangout Starter">
+                <Require feature="rpc"/>
+                <Require feature="views"/>
+                <Require feature="locked-domain"/>
+        </ModulePrefs>
+﻿  <Content type="html"><![CDATA[     
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rueda de la vida</title>
+    <link rel="stylesheet" href="https://www.dropbox.com/s/ljnu5bpip4scqxz/bootstrap.css">
+    <link rel="stylesheet" href="https://www.dropbox.com/s/oaq15hloym70c80/app.css">
+    <script type="text/javascript" src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/voi0pm9o7cx5159/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/9xco3btbbprpjvi/highcharts.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/vgfgpavkzjggqm0/highcharts-more.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/5mi11wb7abp0ek3/exporting.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/15skvpeeravv98c/modernizr.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/m2z8sj5oe5vp3il/app.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/shjijkzws1uljt5/modernizr_validation.js"></script>
+    <script type="text/javascript" src="https://www.dropbox.com/s/9bn4r4498r11n5d/jquery.numeric.js"></script>
+</head>
+<body>
+    <div class="todo well">
+        <div class="page-header">
+            <h1>La Rueda de la Vida
+                <br>
+            <small>
+                Introduce los items para conformar la rueda de la vida
+            </small>
+            </h1>
+        </div>
+        <div id="form" class="pull-left well">
+            <div id="items_mios" class='pull-left'>
+                <!-- container de items -->
+            </div>
+            <div class="clearfix"></div>
+            <hr>
+            <div id="camposAdicionales" class="pull-left">
+                <div class="input-group" style="width:150px">
+                  <input type="text" class="form-control new_item_text" style="width:150px" id="new_item_text" placeholder="Nuevo Item">
+                  <span class="input-group-addon btn  btn-success glyphicon glyphicon-plus" id="add_item_btn"></span>
+                </div>
+            </div>
+        </div>
+        <div id="contenedor" class="pull-left" style="margin-left:40px"></div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>
+]]>
+</Content>
+</Module>
